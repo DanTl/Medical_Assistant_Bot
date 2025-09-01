@@ -7,7 +7,6 @@ Two models were trained and compared:
 1.  **Baseline Model:** Fine-tuned on the original cleaned dataset.
 2.  **Augmented Model:** Fine-tuned on a larger dataset: original data + MedQuAD.
 
-**Final Model:** The augmented model that included MedQuAD showed better performance.
 
 ## Project Structure
 models/ # saved model files
@@ -54,6 +53,7 @@ Here's the proposed workflow:
 From the results it's obvious that the augmented model outperformed the baseline model across all ROUGE metrics.
 
 **Model A (Baseline)** 
+
 ROUGE-1 Score: 23.04%         
 ROUGE-2 Score: 11.78%          
 ROUGE-L Score: 19.89%
@@ -93,7 +93,7 @@ ROUGE-L Score: 19.89%
 ## Instructions
 
 1.  **Clone the repository:**
-    git clone https://github.com/DanTl/medical-assistant-bot.git
+    git clone https://github.com/DanTl/Medical_Assistant_Bot.git
   
 
 2.  **Install dependencies:**
