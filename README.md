@@ -53,9 +53,13 @@ Here's the proposed workflow:
 
 From the results it's obvious that the augmented model outperformed the baseline model across all ROUGE metrics.
 
-                            ROUGE-1 Score           ROUGE-2 Score          ROUGE-L Score
-**Model A (Baseline)**          23.04%                 11.78%                  19.89%
-**Model B (Augmented)**         
+**Model A (Baseline)** 
+ROUGE-1 Score: 23.04%         
+ROUGE-2 Score: 11.78%          
+ROUGE-L Score: 19.89%
+                                            
+**Model B (Augmented)**   
+
 
 ### Pros & Cons
 
